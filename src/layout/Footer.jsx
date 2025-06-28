@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import logo from "../assets/logoMan.png"
 
 const Footer = () => {
     return (
@@ -9,7 +10,9 @@ const Footer = () => {
 
                 {/* Logo + Description */}
                 <div>
-                    <h3 className="text-2xl font-bold text-[#A5886E] mb-4">Manfredomus</h3>
+                    <img
+                        className='w-[150px] mb-8'
+                        src={logo} alt="" />
                     <p className="text-sm text-gray-300 mb-4">
                         A family-run eco-residence in the heart of Sicily offering sustainable comfort and warm hospitality.
                     </p>

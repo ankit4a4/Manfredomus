@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import img from "../../assets/home/img1.jpg"; // Replace with actual images
+import img1 from "../../assets/home/room3.jpg";
+import img2 from "../../assets/home/room2.jpg";
+import img3 from "../../assets/home/room1.jpg";
 import {
     BedDouble,
     ShowerHead,
@@ -16,19 +18,19 @@ const roomData = [
         title: 'Elegant & Calm',
         description: 'A cozy space with warm wooden finishes and soft lighting, ideal for peaceful rest. Designed with eco-materials and local artwork.',
         features: ['Double bed', 'Private bathroom', 'Natural stone walls'],
-        image: img,
+        image: img1,
     },
     {
         title: 'Rustic Charm',
         description: 'This room offers a rural Sicilian vibe with exposed beams and handcrafted décor. It opens up to a lovely countryside view.',
         features: ['Queen bed', 'Countryside view', 'Wi-Fi'],
-        image: img,
+        image: img2,
     },
     {
         title: 'Family Friendly',
         description: 'Perfect for families or longer stays, with spacious interiors and functional yet elegant design. Eco-comfort guaranteed.',
-        features: ['4 Beds', 'Smart TV', 'Kitchen corner'],
-        image: img,
+        features: ['1 Beds', 'Smart TV', 'Kitchen corner'],
+        image: img3,
     },
 ];
 
