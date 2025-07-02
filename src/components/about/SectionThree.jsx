@@ -1,4 +1,5 @@
 import React from 'react'
+import img from "../../assets/about/esterno5 (1).jpg"
 
 const SectionThree = () => {
     return (
@@ -16,7 +17,7 @@ const SectionThree = () => {
                         <div className="relative" data-aos="fade-up">
                             <div className="relative rounded-2xl overflow-hidden shadow-xl h-96">
                                 <img
-                                    src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+                                    src={img}
                                     className="w-full h-full object-cover"
                                     alt="Tranquil countryside"
                                 />

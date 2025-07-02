@@ -7,6 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Footer from './layout/Footer';
 import History from './pages/History';
 import Service from './pages/Service';
+import Structure from './pages/Structure';
+import PlacesToVisit from './pages/PlacesToVisit';
+import Events from './pages/Events';
+import HowToGet from './pages/HowToGet';
 
 function App() {
 
@@ -19,6 +23,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/history" element={<History />} />
           <Route path="/services" element={<Service />} />
+          <Route path="/Structure" element={<Structure />} />
+          <Route path="/surroundings" element={<PlacesToVisit />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/howtoget" element={<HowToGet />} />
         </Routes>
         <Footer />
       </BrowserRouter>

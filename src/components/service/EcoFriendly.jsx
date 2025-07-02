@@ -1,42 +1,49 @@
 import React from 'react'
+import img1 from "../../assets/service/esterno16.jpg"
+import img2 from "../../assets/service/images.jpeg"
+import img3 from "../../assets/service/rain-water-harvesting-system.jpg"
+import img4 from "../../assets/service/accessori14.jpg"
+import img5 from "../../assets/service/images (1).jpeg"
+import img6 from "../../assets/service/images (2).jpeg"
+import img7 from "../../assets/service/images (3).jpeg"
 
 const EcoFriendly = () => {
-    
+
     const greenFeatures = [
         {
             title: "Green Hospitality",
             description: "Our eco-sustainable structure is equipped with innovative technologies that make it self-sufficient and zero impact.",
-            image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80"
+            image: img1
         },
         {
             title: "Photovoltaic and Solar Thermal System",
             description: "Sicilian solar energy powers the facility, producing clean, renewable electricity.",
-            image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&q=80"
+            image: img2
         },
         {
             title: "Rainwater Recovery System",
             description: "We collect every drop of rainwater from the roof, transforming it into a sustainable resource for non-potable uses.",
-            image: "https://images.unsplash.com/photo-1623947156793-7b9a0d0f9c4e?auto=format&fit=crop&q=80"
+            image: img3
         },
         {
             title: "Air Conditioning",
             description: "Smart-climate rooms, designed for optimal thermal comfort and remote temperature management.",
-            image: "https://images.unsplash.com/photo-1579783483450-7a5dc0a0b9a1?auto=format&fit=crop&q=80"
+            image: img4
         },
         {
             title: "Air Purification System (VMC)",
             description: "We guarantee a continuous exchange of purified air, monitoring humidity and air quality.",
-            image: "https://images.unsplash.com/photo-1581578021434-8d56e2cbf45a?auto=format&fit=crop&q=80"
+            image: img5
         },
         {
             title: "22kW Charging Station",
             description: "Recharge with green energy with our electric charging station.",
-            image: "https://images.unsplash.com/photo-1583123810408-23e7d5a446c0?auto=format&fit=crop&q=80"
+            image: img6
         },
         {
             title: "Bike Rental",
             description: "Explore the surroundings in a sustainable and healthy way.",
-            image: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&q=80"
+            image: img7
         }
     ];
     return (
