@@ -5,7 +5,7 @@ import WhyChooseUs from '../components/home/WhyChooseUs'
 import NearbyAttractions from '../components/home/NearbyAttractions'
 import TestimonialsPreview from '../components/home/TestimonialsPreview'
 import EveryComfort from '../components/home/EveryComfort'
-import Unmissableevents from '../components/home/Unmissableevents'
+import UnmissableEvents from '../components/home/UnmissableEvents'
 
 const Home = () => {
     return (
@@ -16,7 +16,7 @@ const Home = () => {
             <EveryComfort />
             {/* <OurRooms /> */}
             <NearbyAttractions />
-            <Unmissableevents />
+            <UnmissableEvents />
             <TestimonialsPreview />
         </>
     )

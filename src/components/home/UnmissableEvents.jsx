@@ -5,7 +5,7 @@ import img3 from "../../assets/home/maxresdefault3.jpg"
 import img4 from "../../assets/home/maxresdefault4.jpg"
 import img5 from "../../assets/home/maxresdefault5.jpg"
 
-const Unmissableevents = () => {
+const UnmissableEvents = () => {
     const events = [
         {
             title: "Easter",
@@ -97,4 +97,4 @@ const Unmissableevents = () => {
     );
 };
 
-export default Unmissableevents;
+export default UnmissableEvents;
