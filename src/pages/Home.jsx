@@ -15,7 +15,7 @@ const Home = () => {
             <HistorySection />
             <WhyChooseUs />
             <EveryComfort />
-            <OurRooms />
+            {/* <OurRooms /> */}
             <NearbyAttractions />
             <Unmissableevents />
             <TestimonialsPreview />
