@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/logoMan.png';
 import { Menu, X } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
+import ScrollToTopButton from './ScrollToTopButton';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -42,6 +44,8 @@ const Header = () => {
             className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md' : 'bg-transparent'
                 }`}
         >
+
+
             <div className="flex items-center justify-between px-4 md:px-20 py-4">
                 <div>
                     <img className="w-[80px] md:w-[130px]" src={logo} alt="Logo" />
@@ -101,6 +105,31 @@ const Header = () => {
                     className="fixed inset-0 bg-black bg-opacity-30 z-30 md:hidden"
                 />
             )}
+
+            {/* ////////////////////// Whatsapp Button //////////////////////// */}
+
+            <a
+                href="https://wa.me/393661270826" // ← apna number yahan daalna
+                target="_blank"
+                rel="noopener noreferrer"
+                className="fixed bottom-6 left-6 z-50 flex items-center gap-2 shadow-xl hover:scale-105 transition-transform duration-300"
+            >
+                {/* WhatsApp Icon in Green Circle */}
+                <div className="bg-[#25D366] p-3 rounded-full flex items-center justify-center">
+
+                    <FaWhatsapp size={24} color="#fff" />
+                </div>
+
+                {/* White Text Pill */}
+                <div className="bg-white text-[#25D366] font-medium px-4 py-2 rounded-full text-sm shadow">
+                    Can we help you?
+                </div>
+            </a>
+
+            {/* ///////////////// Scroll Top Button ////////////// */}
+
+            <ScrollToTopButton />
+
         </header>
     );
 };

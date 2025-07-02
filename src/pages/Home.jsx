@@ -5,7 +5,8 @@ import WhyChooseUs from '../components/home/WhyChooseUs'
 import OurRooms from '../components/home/OurRooms'
 import NearbyAttractions from '../components/home/NearbyAttractions'
 import TestimonialsPreview from '../components/home/TestimonialsPreview'
-import BookingCTA from '../components/home/BookingCTA'
+import EveryComfort from '../components/home/EveryComfort'
+import Unmissableevents from '../components/home/Unmissableevents'
 
 const Home = () => {
     return (
@@ -13,10 +14,11 @@ const Home = () => {
             <HeroSection />
             <HistorySection />
             <WhyChooseUs />
+            <EveryComfort />
             <OurRooms />
             <NearbyAttractions />
+            <Unmissableevents />
             <TestimonialsPreview />
-            <BookingCTA />
         </>
     )
 }
