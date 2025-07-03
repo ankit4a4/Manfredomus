@@ -15,7 +15,7 @@ const HeroSection = () => {
 
     return (
         <>
-            <section className="w-full py-16 px-6 lg:px-20">
+            <section className="w-full md:py-16 py-6 px-6 lg:px-20">
                 <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
 
                     {/* TEXT LEFT SIDE */}

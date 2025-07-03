@@ -10,7 +10,7 @@ import logo5 from "../../assets/structure/bookinglogo.png"
 
 const RoomExperienceSection = () => {
     return (
-        <section className="relative bg-gradient-to-b from-[#F9F7F4] to-[#e8e1d5] py-24 px-6 md:px-12 lg:px-24 text-[#253745] overflow-hidden">
+        <section className="relative bg-gradient-to-b from-[#F9F7F4] to-[#e8e1d5] py-8 md:py-20 px-6 md:px-12 lg:px-24 text-[#253745] overflow-hidden">
             {/* Decorative elements */}
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#A5886E] via-[#597429] to-[#A5886E] opacity-20"></div>
 
