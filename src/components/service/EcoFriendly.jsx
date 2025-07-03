@@ -62,11 +62,11 @@ const EcoFriendly = () => {
                                 data-aos="fade-up"
                                 data-aos-delay={index * 100}
                             >
-                                <div className="h-56 overflow-hidden">
+                                <div className="md:h-70 h-56 overflow-hidden bg-white ">
                                     <img
                                         src={feature.image}
                                         alt={feature.title}
-                                        className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                                        className="w-full h-full object-contain transition-transform duration-500 hover:scale-110"
                                     />
                                 </div>
                                 <div className="p-6">

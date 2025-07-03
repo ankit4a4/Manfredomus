@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.WidgetBackground__ContentContainer-sc a:nth-last-child(1) {
+  display: none;
+}
