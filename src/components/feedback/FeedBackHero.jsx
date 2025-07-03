@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../../assets/FeedBack"
+import img from "../../assets/FeedBack/soggiorno suite (3).jpg"
 const FeedBackHero = () => {
     return (
         <>
