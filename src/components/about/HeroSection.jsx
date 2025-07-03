@@ -21,17 +21,15 @@ const HeroSection = () => {
                     {/* TEXT LEFT SIDE */}
                     <div data-aos="fade-up" className="order-1 lg:order-1">
                         <h2 className="text-4xl lg:text-5xl font-bold text-[#253745] mb-4">
-                            A Residence Full of History
+                            Best Eco Lodges in Central Sicily
                         </h2>
                         <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                            Immersed in the Sicilian hinterland and near the majestic
-                            Castello Manfredonico, our accommodation was born from a family
-                            dream. Generations of farmers cultivated this land and in the 60s,
-                            our parents built a house that would welcome generations.
+                            Recognized as one of the best eco lodges in central Sicily, Manfredomus is much more than a beautiful place to stay. It’s a lifestyle destination that reflects the principles of sustainable tourism, local culture, and heartfelt hospitality. Every detail, from locally sourced building materials to eco-conscious amenities, has been thoughtfully curated to ensure a minimal carbon footprint.
                         </p>
-                        <button className="px-6 py-3 bg-[#ADBE35] text-white rounded-lg font-medium  cursor-pointer transition-colors duration-300">
-                            Explore Our History
-                        </button>
+                        <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                            Guests at these best eco lodges in central Sicily can enjoy activities such as olive oil tasting, nature walks, or simply relaxing with a book under ancient olive trees. The lodge also collaborates with local artisans and farmers, giving guests an authentic taste of Sicilian life. Whether you're a solo traveller or a couple seeking privacy, Manfredomus offers the intimacy and charm of a traditional Sicilian home with all the comforts of a boutique stay.
+                        </p>
+
                     </div>
 
                     {/* IMAGE RIGHT SIDE */}

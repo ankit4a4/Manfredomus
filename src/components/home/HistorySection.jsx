@@ -44,16 +44,16 @@ const HistorySection = () => {
             alt="Main Residence"
             className="rounded-xl shadow-md w-full"
           />
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 gap-4">
             <img
               src={imageFamily}
               alt="Family History"
-              className="rounded-xl shadow-md object-cover h-48 w-full"
+              className="rounded-xl shadow-md object-cover md:h-48 w-full"
             />
             <img
               src={imageNature}
               alt="Eco Garden"
-              className="rounded-xl shadow-md object-cover h-48 w-full"
+              className="rounded-xl shadow-md object-cover h-[300px] md:h-48 w-full"
             />
           </div>
         </div>

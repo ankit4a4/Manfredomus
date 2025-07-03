@@ -52,55 +52,18 @@ const SectionTwo = () => {
                     className="lg:col-span-3 bg-white/90 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-xl"
                     data-aos="fade-up"
                 >
-                    <div className="text-[#597429] uppercase tracking-wider font-medium mb-2">
-                        A Green Transformation
+                    <div className="text-[#597429]  tracking-wider font-medium mb-2">
+
                     </div>
-                    <h2 className="text-3xl lg:text-4xl font-bold text-[#253745] mb-6">
-                        From Heritage to Innovation
+                    <h2 className="text-2xl lg:text-3xl font-bold text-[#253745] mb-6">
+                        Experience Tranquillity at Manfredomus: A Luxury Green Stay in the Heart of Sicily
                     </h2>
                     <p className="text-gray-800 text-lg leading-relaxed mb-8">
-                        Today that place of our childhood has become a welcoming oasis for
-                        travelers and tourists seeking an authentic connection with nature
-                        and Sicilian history. With respect for the past and an eye to the
-                        future, we have renovated our home in an ecological and sustainable
-                        way, creating a technologically advanced environment with zero
-                        environmental impact.
+                        Tucked away in the enchanting Sicilian countryside, Manfredomus offers an unparalleled experience for those seeking peace, authenticity, and sustainability. As a thoughtfully curated eco retreat with castle views in Sicily, this homestay blends rustic charm with refined comfort, giving guests a taste of local heritage while minimizing environmental impact.
                     </p>
-
-                    <div className="grid grid-cols-2 gap-4 mb-8">
-                        <div className="flex items-center gap-3">
-                            <div className="bg-[#597429] rounded-full p-2 flex-shrink-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                                </svg>
-                            </div>
-                            <span className="text-gray-700">Eco-friendly renovation</span>
-                        </div>
-                        <div className="flex items-center gap-3">
-                            <div className="bg-[#597429] rounded-full p-2 flex-shrink-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                                </svg>
-                            </div>
-                            <span className="text-gray-700">Zero environmental impact</span>
-                        </div>
-                        <div className="flex items-center gap-3">
-                            <div className="bg-[#597429] rounded-full p-2 flex-shrink-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                                </svg>
-                            </div>
-                            <span className="text-gray-700">Technologically advanced</span>
-                        </div>
-                        <div className="flex items-center gap-3">
-                            <div className="bg-[#597429] rounded-full p-2 flex-shrink-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                                </svg>
-                            </div>
-                            <span className="text-gray-700">Preserving Sicilian history</span>
-                        </div>
-                    </div>
+                    <p className="text-gray-800 text-lg leading-relaxed mb-8">
+                        Located just a short distance from a majestic medieval fortress, Manfredomus is a luxury green stay near the medieval castle in Italy, ideal for travelers who want to immerse themselves in Italy’s rich history and stunning natural landscapes. Whether you’re seeking solitude, inspiration, or a romantic escape, this hideaway is more than just a place to sleep—it’s a soulful destination that celebrates mindful travel.
+                    </p>
                 </div>
             </div>
         </section>

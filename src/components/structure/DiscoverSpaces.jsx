@@ -71,10 +71,13 @@ const DiscoverSpaces = () => {
             </div>
             <div>
               <span className="inline-block mb-3 text-lg font-semibold text-[#253745] border-b-2 border-[#253745] pb-1">
-                Heritage Space
+                Luxury Green Stay Near the Medieval Castle in Italy
               </span>
               <p className="text-lg md:text-xl leading-8 md:leading-9 text-[#253745]/90">
-                We have also created an exhibition space dedicated to the testimonies of the ancient local rural civilization. In this place, traditions, tools and everyday objects of the past are enhanced, offering a fascinating look at the peasant life that has characterized our territory for centuries. A journey through time to rediscover the cultural and historical roots of our community.
+                Luxury Green Stay Near the Medieval Castle in Italy
+                The homestay’s proximity to a picturesque fortress makes Manfredomus a standout destination for anyone looking for a luxury green stay near the medieval castle in Italy. Imagine waking up to breathtaking views of rolling hills crowned by centuries-old stonework, then enjoying your morning coffee on a sun-drenched terrace surrounded by olive groves.
+                As a luxury green stay near the medieval castle in Italy, Manfredomus combines elegance with environmental responsibility. Solar panels, rainwater harvesting systems, and organic landscaping are just a few of the initiatives that make it a leader in sustainable hospitality. Every stay here is an opportunity to enjoy Italy’s natural beauty without compromising the planet.
+
               </p>
             </div>
           </div>

@@ -4,6 +4,7 @@ import logo from '../assets/logoMan.png';
 import { Menu, X } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 import ScrollToTopButton from './ScrollToTopButton';
+import { MdBedroomParent } from 'react-icons/md';
 
 
 const Header = () => {
@@ -140,6 +141,26 @@ const Header = () => {
 
             <ScrollToTopButton />
 
+
+
+            {/* ///////////////////////////// Book Button ///////////////////////// */}
+
+
+            <a
+                href="https://hospitality-guest.teamsystem.cloud/booking-engine/manfredomus"
+                rel="noopener noreferrer"
+                className="fixed bottom-20 left-6 z-50 flex items-center gap-2 shadow-xl hover:scale-105 transition-transform duration-300"
+            >
+                {/* WhatsApp Icon in Green Circle */}
+                <div className="bg-[#A5886E] p-3 rounded-full flex items-center justify-center">
+                    <MdBedroomParent size={24} color="#fff" />
+                </div>
+
+                {/* White Text Pill */}
+                <div className="bg-white text-[#A5886E] font-medium px-4 py-2 rounded-full text-sm shadow">
+                    Book Now.
+                </div>
+            </a>
         </header>
     );
 };

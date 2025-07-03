@@ -23,10 +23,17 @@ const NearbyAttractions = () => {
     }, []);
 
     return (
-        <section className="md:py-16 py-4 bg-white" id="attractions">
+        <section className="md:py-12 py-4 bg-white" id="attractions">
+            <h2 className="text-3xl md:text-5xl font-bold text-[#A5886E] mx-auto mb-4 text-center">An Eco Homestay with View of Castle in Italy</h2>
+            <p className="text-gray-700 text-center md:max-w-5xl mx-auto mb-12 relative z-10">Nestled in the serene countryside of Sicily, Manfredomus offers a truly unique experience for mindful travelers. As an eco-homestay with view of castle in Italy, it combines sustainability, comfort, and breathtaking scenery in perfect harmony. Wake up to golden morning light spilling over ancient stone walls, and enjoy your breakfast with panoramic views of a majestic medieval fortress just steps away.
 
+            </p>
+            <p className="text-gray-700 text-center md:max-w-5xl mx-auto mb-12 relative z-10"> This eco homestay with view of castle in Italy is more than just a place to stay—it’s a peaceful retreat that honor the natural beauty and heritage of the region. The property features eco-conscious architecture, organic gardens, and locally sourced meals, all designed to minimize environmental impact while maximizing comfort.
+                Whether you're sipping wine on the terrace, walking through olive groves, or exploring nearby historic villages, every moment here feels magical. For couples, artists, and solo travelers alike, Manfredomus offers the perfect balance of charm, luxury, and sustainability.</p>
 
-            <div className="max-w-7xl mx-auto px-4 md:px-8">
+            <p className="text-gray-700 text-center md:max-w-5xl mx-auto mb-12 relative z-10"> If you’re dreaming of an unforgettable Sicilian escape, look no further than this eco homestay with view of castle in Italy, where nature, history, and hospitality come together in perfect alignment.</p>
+
+            <div className="md:max-w-7xl mx-auto px-4 md:px-8">
                 <h2
                     className="text-3xl md:text-5xl font-bold text-[#A5886E] mx-auto mb-4 text-center"
                     data-aos="fade-up"
