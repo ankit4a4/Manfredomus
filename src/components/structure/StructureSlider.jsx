@@ -156,7 +156,7 @@ const StructureSlider = () => {
 
 
   return (
-    <div className="px-4 md:px-8 md:flex md:items-center  md:justify-center md:flex-col">
+    <div className="px-4 md:px-8 md:flex mt-5 md:items-center  md:justify-center md:flex-col">
       <div className="relative md:w-5xl  h-[300px] md:h-[500px]">
         <div
           className="rounded-2xl shadow-2xl overflow-hidden h-full"
