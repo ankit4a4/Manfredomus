@@ -15,6 +15,7 @@ const FeedBackHero = () => {
                     </h1>
                 </div>
             </section>
+
         </>
     )
 }
