@@ -1,6 +1,6 @@
 import React from 'react';
 import img1 from "../../assets/home/maxresdefault1.jpg"
-import img2 from "../../assets/home/maxresdefault2.jpeg"
+import img2 from "../../assets/home/maxresdefault2.jpg"
 import img3 from "../../assets/home/maxresdefault3.jpg"
 import img4 from "../../assets/home/maxresdefault4.jpg"
 import img5 from "../../assets/home/maxresdefault5.jpg"
@@ -61,7 +61,7 @@ const UnmissableEvents = () => {
                             {/* Background Image */}
                             <div
                                 className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
-                                style={{ backgroundImage: `url(${event.image})` }}
+                                style={{ backgroundImage: `url(${event.image})`, backgroundRepeat: "no-repeat", backgroundPosition: "top", objectFit: "cover" }}
                             >
                                 <div className="absolute inset-0 bg-[#00000080] bg-opacity-40 group-hover:bg-opacity-20 transition-all duration-500"></div>
                             </div>

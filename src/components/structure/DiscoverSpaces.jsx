@@ -1,6 +1,9 @@
 'use client';
 
 import React from 'react';
+import img1 from "../../assets/structure/esterno (3).jpg"
+import img2 from "../../assets/structure/U Manieru (2).jpg"
+import img3 from "../../assets/structure/esterno (15).jpg"
 
 const DiscoverSpaces = () => {
   return (
@@ -20,7 +23,7 @@ const DiscoverSpaces = () => {
           <div className="group grid md:grid-cols-2 gap-14 items-center">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl transition-all duration-500 group-hover:shadow-xl">
               <img
-                src="https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                src={img1}
                 alt="Mediterranean Landscape"
                 className="w-full h-80 md:h-96 object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -40,7 +43,7 @@ const DiscoverSpaces = () => {
           <div className="group grid md:grid-cols-2 gap-14 items-center">
             <div className="md:order-2 relative overflow-hidden rounded-2xl shadow-2xl transition-all duration-500 group-hover:shadow-xl">
               <img
-                src="https://images.pexels.com/photos/271743/pexels-photo-271743.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                src={img2}
                 alt="Eco Rooms"
                 className="w-full h-80 md:h-96 object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -60,7 +63,7 @@ const DiscoverSpaces = () => {
           <div className="group grid md:grid-cols-2 gap-14 items-center">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl transition-all duration-500 group-hover:shadow-xl">
               <img
-                src="https://images.pexels.com/photos/161577/mill-old-rural-historically-161577.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                src={img3}
                 alt="Rural Civilization"
                 className="w-full h-80 md:h-96 object-cover transition-transform duration-700 group-hover:scale-105"
               />

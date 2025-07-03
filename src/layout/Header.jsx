@@ -5,21 +5,32 @@ import { Menu, X } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 import ScrollToTopButton from './ScrollToTopButton';
 
+
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const location = useLocation();
 
+
+    console.log("useLocation", location.pathname)
+
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }, [location]);
+
     const navLink = [
-        { name: 'Home', path: '/' },
-        { name: 'History', path: '/history' },
-        { name: 'Services', path: '/services' },
-        { name: 'Structure', path: '/structure' },
-        { name: 'Surroundings', path: '/surroundings' },
-        { name: 'Events', path: '/events' },
-        { name: 'How to get there', path: '/howtoget' },
-        { name: 'Feedback', path: '/deedback' },
-        { name: 'Book', path: '/book' },
+        { name: 'HOME', path: '/' },
+        { name: 'HISTORY', path: '/history' },
+        { name: 'SERVICES', path: '/services' },
+        { name: 'STRUCTURE', path: '/structure' },
+        { name: 'SURROUNDINGS', path: '/surroundings' },
+        { name: 'EVENTS', path: '/events' },
+        { name: 'HOW TO GET THERE', path: '/howtoget' },
+        { name: 'FEEDBACK', path: '/feedback' },
+        { name: 'BOOK', path: 'https://hospitality-guest.teamsystem.cloud/booking-engine/manfredomus' },
     ];
 
     useEffect(() => {
@@ -41,11 +52,9 @@ const Header = () => {
 
     return (
         <header
-            className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md' : 'bg-transparent'
+            className={`fixed w-full z-50 transition-all  duration-300 ${scrolled ? 'bg-white shadow-md' : 'bg-transparent'
                 }`}
         >
-
-
             <div className="flex items-center justify-between px-4 md:px-20 py-4">
                 <div>
                     <img className="w-[80px] md:w-[130px]" src={logo} alt="Logo" />
@@ -73,6 +82,7 @@ const Header = () => {
             </div>
 
             {/* Slide-in Mobile Menu */}
+
             <div
                 className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg z-40 transform transition-transform duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'
                     } md:hidden`}
@@ -88,7 +98,7 @@ const Header = () => {
                         <Link
                             key={i}
                             to={item.path}
-                            className={`text-sm font-medium transition ${location.pathname === item.path
+                            className={`text-md uppercase font-medium transition ${location.pathname === item.path
                                 ? 'text-[#A5886E]'
                                 : 'text-[#597429]'
                                 } hover:text-[#A5886E]`}

@@ -1,6 +1,6 @@
 import React from 'react';
 import img1 from "../../assets/home/maxresdefault1.jpg"
-import img2 from "../../assets/home/maxresdefault2.jpeg"
+import img2 from "../../assets/home/maxresdefault2.jpg"
 import img3 from "../../assets/home/maxresdefault3.jpg"
 import img4 from "../../assets/home/maxresdefault4.jpg"
 import img5 from "../../assets/home/maxresdefault5.jpg"
@@ -61,12 +61,10 @@ const EventSection = () => {
                             key={event.id}
                             className="relative overflow-hidden rounded-2xl shadow-xl transition-all duration-500"
                         >
-                            <div className="relative h-64">
-                                <img
-                                    src={event.image}
-                                    alt={event.title}
-                                    className="w-full h-full object-cover"
-                                />
+                            <div
+                                style={{ backgroundImage: `url(${event.image})`, backgroundSize: "cover", backgroundPosition: "top" }}
+                                className="relative h-64 md:h-90">
+
                                 <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-6">
                                     <h3 className="text-2xl font-serif font-bold text-white mb-1">
                                         {event.title}
@@ -79,7 +77,7 @@ const EventSection = () => {
                 </div>
 
             </div>
-        </div>
+        </div >
     );
 };
 
