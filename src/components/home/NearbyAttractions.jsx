@@ -23,7 +23,7 @@ const NearbyAttractions = () => {
     }, []);
 
     return (
-        <section className="md:py-16 py-8 bg-white" id="attractions">
+        <section className="md:py-16 py-4 bg-white" id="attractions">
 
 
             <div className="max-w-7xl mx-auto px-4 md:px-8">
@@ -48,7 +48,7 @@ const NearbyAttractions = () => {
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
                     {/* Big left card */}
                     <div
-                        className="md:col-span-5 h-116 rounded-2xl overflow-hidden relative group shadow-lg"
+                        className="md:col-span-5 h-80 md:h-116 rounded-2xl overflow-hidden relative group shadow-lg"
                         data-aos="fade-up"
                     >
                         <img
@@ -67,7 +67,7 @@ const NearbyAttractions = () => {
                     {/* Right column - top */}
                     <div className="md:col-span-7 grid grid-cols-2 gap-5">
                         <div
-                            className="h-56 rounded-2xl overflow-hidden relative group shadow-lg"
+                            className="md:h-56 h-30 rounded-2xl overflow-hidden relative group shadow-lg"
                             data-aos="fade-up"
                             data-aos-delay="100"
                         >
@@ -84,7 +84,7 @@ const NearbyAttractions = () => {
                             </div>
                         </div>
                         <div
-                            className="h-56 rounded-2xl overflow-hidden relative group shadow-lg"
+                            className="md:h-56 h-30 rounded-2xl overflow-hidden relative group shadow-lg"
                             data-aos="fade-up"
                             data-aos-delay="150"
                         >
@@ -103,7 +103,7 @@ const NearbyAttractions = () => {
 
                         {/* Right column - bottom */}
                         <div
-                            className="h-56 rounded-2xl overflow-hidden relative group shadow-lg"
+                            className="md:h-56 h-30 rounded-2xl overflow-hidden relative group shadow-lg"
                             data-aos="fade-up"
                             data-aos-delay="200"
                         >
@@ -120,7 +120,7 @@ const NearbyAttractions = () => {
                             </div>
                         </div>
                         <div
-                            className="h-56 rounded-2xl overflow-hidden relative group shadow-lg"
+                            className="md:h-56 h-30 rounded-2xl overflow-hidden relative group shadow-lg"
                             data-aos="fade-up"
                             data-aos-delay="250"
                         >
@@ -140,7 +140,7 @@ const NearbyAttractions = () => {
 
                     {/* Full width bottom card */}
                     <div
-                        className="md:col-span-12 h-64 md:h-80 rounded-2xl overflow-hidden relative group shadow-lg mt-5"
+                        className="md:col-span-12 h-50 md:h-80 rounded-2xl overflow-hidden relative group shadow-lg mt-5"
                         data-aos="fade-up"
                         data-aos-delay="300"
                     >

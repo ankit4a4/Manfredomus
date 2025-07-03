@@ -12,7 +12,7 @@ const HistorySection = () => {
   }, []);
 
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-4 md:py-20">
       <div className="max-w-7xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12 items-center">
         {/* LEFT - Text Content */}
         <div data-aos="fade-up">

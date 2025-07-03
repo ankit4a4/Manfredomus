@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaCheck, FaLeaf, FaArrowRight } from "react-icons/fa";
 import img from "../../assets/about/DS209768-HDR.jpg"
-import img2 from "../../assets/about/suite11.jpg"
+import img2 from "../../assets/structure/accessori (12).jpg"
 
 const SectionTwo = () => {
     useEffect(() => {
@@ -13,15 +13,10 @@ const SectionTwo = () => {
     return (
         <section className="relative w-full min-h-screen flex items-center justify-center bg-[#A5886E]">
             <div className="absolute inset-0">
-                <img
-                    src="https://images.unsplash.com/photo-1590650516494-0c8e4a4b8f56?auto=format&fit=crop&w=1600&q=80"
-                    className="w-full h-full object-cover opacity-60"
-                    alt="Eco transformation"
-                />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/50"></div>
             </div>
 
-            <div className="relative z-10 max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-5 gap-8 items-center">
+            <div className="relative z-10 max-w-7xl mx-auto px-6 py-6 md:py-24 grid lg:grid-cols-5 gap-8 items-center">
                 <div className="lg:col-span-2 flex flex-col gap-6">
                     <div
                         className="rounded-2xl overflow-hidden shadow-2xl transform transition duration-700 hover:-translate-y-2"

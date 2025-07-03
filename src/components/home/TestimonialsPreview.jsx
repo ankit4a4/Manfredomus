@@ -59,7 +59,7 @@ const TestimonialsSlider = () => {
     };
 
     return (
-        <section className="py-20 bg-[#F9F6F4]" id="testimonials">
+        <section className="md:py-20 py-8 bg-[#F9F6F4]" id="testimonials">
             <div className="max-w-6xl mx-auto px-4 text-center">
                 <h2 className="text-3xl md:text-5xl font-bold text-[#597429] mb-4" data-aos="fade-up">
                     Testimonials

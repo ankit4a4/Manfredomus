@@ -7,7 +7,7 @@ import img3 from "../../assets/structure/esterno (15).jpg"
 
 const DiscoverSpaces = () => {
   return (
-    <section className="relative bg-gradient-to-b from-[#F9F7F4] to-[#f0ede6] py-28 px-6 md:px-20 text-[#253745]">
+    <section className="relative bg-gradient-to-b from-[#F9F7F4] to-[#f0ede6] py-8 md:py-20 px-6 md:px-20 text-[#253745]">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#597429] to-[#A5886E]">
@@ -18,7 +18,7 @@ const DiscoverSpaces = () => {
           </p>
         </div>
 
-        <div className="space-y-24">
+        <div className="space-y-10 md:space-y-24">
           {/* Block 1 */}
           <div className="group grid md:grid-cols-2 gap-14 items-center">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl transition-all duration-500 group-hover:shadow-xl">

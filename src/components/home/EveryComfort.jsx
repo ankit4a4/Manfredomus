@@ -53,7 +53,7 @@ const EveryComfort = () => {
     ];
 
     return (
-        <section className="bg-white py-16">
+        <section className="bg-white py-4 md:py-16">
             <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
                 <h2 className="text-3xl md:text-5xl font-bold text-[#A5886E] mb-12" data-aos="fade-up">
                     <i>And we offer you every comfort</i>

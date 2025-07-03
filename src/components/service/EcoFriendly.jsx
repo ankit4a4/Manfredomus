@@ -48,7 +48,7 @@ const EcoFriendly = () => {
     ];
     return (
         <>
-            <section className="py-16 px-4 bg-[#f5f5f5]">
+            <section className="py-6 md:py-16 px-4 bg-[#f5f5f5]">
                 <div className="max-w-7xl mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-16">
                         Our Eco-Friendly Initiatives

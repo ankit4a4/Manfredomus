@@ -10,7 +10,7 @@ import {
 
 const HowToGetSection = () => {
     return (
-        <div className="min-h-screen bg-[#e6e2dc] py-16 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-screen bg-[#e6e2dc] md:py-16 py-8 px-4 sm:px-6 lg:px-8">
             <div className="max-w-6xl mx-auto space-y-14">
                 {/* Header */}
                 <div className="text-center">

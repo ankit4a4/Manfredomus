@@ -4,7 +4,7 @@ import img from "../../assets/about/esterno5 (1).jpg"
 const SectionThree = () => {
     return (
         <>
-            <section className="w-full bg-[#f8f7f5] py-20 px-6 lg:px-20">
+            <section className="w-full bg-[#f8f7f5] py-8 md:py-20 px-6 lg:px-20">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-16" data-aos="fade-up">
                         <h2 className="text-3xl lg:text-4xl font-bold text-[#253745] mb-4">

@@ -157,7 +157,7 @@ const StructureSlider = () => {
 
   return (
     <div className="px-4 md:px-8 md:flex md:items-center  md:justify-center md:flex-col">
-      <div className="relative md:w-5xl  h-[500px]">
+      <div className="relative md:w-5xl  h-[300px] md:h-[500px]">
         <div
           className="rounded-2xl shadow-2xl overflow-hidden h-full"
           onMouseEnter={handleMouseEnter}
@@ -200,7 +200,7 @@ const StructureSlider = () => {
       </div>
 
       {/* Thumbnail nav with adjusted spacing */}
-      <div className="mt-4 w-5xl px-2 flex overflow-x-auto pb-2 space-x-2 scrollbar-hide">
+      <div className="mt-4 md:w-5xl px-2 flex overflow-x-auto pb-2 space-x-2 scrollbar-hide">
         {slides.map((slide, index) => (
           <button
             key={slide.id}
