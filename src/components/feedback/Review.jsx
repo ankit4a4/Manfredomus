@@ -2,6 +2,7 @@ import { useState, useRef } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import GoogleReviews from './GoogleReviews';
 
 const Review = () => {
   // Booking.com Reviews
@@ -235,126 +236,13 @@ const Review = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-20 bg-[#faf8f5]">
-      {/* Title Section */}
-      <div className="text-center mb-16">
-        <h2 className="text-4xl font-serif font-bold text-[#3a352e] mb-4">
-          Guest Experiences
-        </h2>
-        <div className="w-24 h-1 bg-[#A5886E] mx-auto rounded-full"></div>
-        <p className="mt-4 text-[#6d6458] max-w-2xl mx-auto">
-          Discover what our valued guests have to say about their stays at our property
-        </p>
-      </div>
+    
+    
+            <GoogleReviews />
 
-      {/* Source Filter Tabs */}
-      <div className="flex justify-center mb-12">
-        <div className="inline-flex p-1 bg-[#ede9e4] rounded-lg">
-          {['all', 'booking', 'google'].map((source) => (
-            <button
-              key={source}
-              className={`px-6 py-2 rounded-md text-sm font-medium transition-all ${activeSource === source
-                ? 'bg-white text-[#A5886E] shadow-sm'
-                : 'text-[#8a7f72] hover:text-[#A5886E]'
-                }`}
-              onClick={() => {
-                setActiveSource(source);
-                sliderRef.current?.slickGoTo(0);
-              }}
-            >
-              {source === 'all' ? 'All Reviews' :
-                source === 'booking' ? 'Booking.com' : 'Google'}
-            </button>
-          ))}
-        </div>
-      </div>
 
-      {/* Combined Reviews Slider */}
-      <div className="relative">
-        <Slider {...sliderSettings}>
-          {filteredReviews.map((review, i) => (
-            <div key={`${review.sourceType}-${i}`} className="px-3 py-2 focus:outline-none">
-              <div className="bg-white rounded-xl p-6 border border-[#e9e2d9] shadow-[0_10px_30px_rgba(165,136,110,0.08)] hover:shadow-[0_15px_40px_rgba(165,136,110,0.15)] transition-all duration-300 flex flex-col h-full">
-                <div className="flex justify-between items-start mb-4">
-                  <div>
-                    <h4 className="font-bold text-lg text-[#3a352e]">{review.name}</h4>
-                    <p className="text-[#8a7f72] text-sm">{review.date}</p>
-                  </div>
-                  <SourceIcon source={review.source} />
-                </div>
-
-                <div className="mb-4">
-                  <RatingStars
-                    rating={review.rating}
-                    max={review.sourceType === 'booking' ? 10 : 5}
-                  />
-                </div>
-
-                <div className="relative mb-4 flex-grow">
-                  <p className="text-[#5a5349] leading-relaxed line-clamp-5">
-                    {review.text}
-                  </p>
-                  <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
-                </div>
-
-                <div className="flex justify-between items-center mt-auto pt-4 border-t border-[#f1ece5]">
-                  <span className="text-xs text-[#8a7f72]">
-                    {review.sourceType === 'booking' ? 'Booking.com' : 'Google'} review
-                  </span>
-                  <button className="text-[#A5886E] font-medium text-sm hover:text-[#8a7157] transition-colors flex items-center group">
-                    <span className="mr-1">Read full</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
-          ))}
-        </Slider>
-      </div>
-
-      {/* Stats Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
-        <div className="text-center p-6 bg-white rounded-xl border border-[#e9e2d9]">
-          <div className="text-5xl font-serif text-[#A5886E] font-bold mb-2">9.8/10</div>
-          <h3 className="text-lg font-semibold text-[#3a352e]">Average Rating</h3>
-          <p className="text-[#8a7f72] mt-2">Across all platforms</p>
-        </div>
-
-        <div className="text-center p-6 bg-white rounded-xl border border-[#e9e2d9]">
-          <div className="text-5xl font-serif text-[#A5886E] font-bold mb-2">98%</div>
-          <h3 className="text-lg font-semibold text-[#3a352e]">Guest Satisfaction</h3>
-          <p className="text-[#8a7f72] mt-2">Would recommend our property</p>
-        </div>
-
-        <div className="text-center p-6 bg-white rounded-xl border border-[#e9e2d9]">
-          <div className="text-5xl font-serif text-[#A5886E] font-bold mb-2">250+</div>
-          <h3 className="text-lg font-semibold text-[#3a352e]">5-Star Reviews</h3>
-          <p className="text-[#8a7f72] mt-2">From our valued guests</p>
-        </div>
-      </div>
-
-      {/* Custom Dots Styling */}
-      <style jsx>{`
-        :global(.slick-dots li button:before) {
-          color: #d4c9bb;
-          font-size: 10px;
-          opacity: 1;
-        }
-        :global(.slick-dots li.slick-active button:before) {
-          color: #A5886E;
-        }
-        :global(.slick-prev:before, .slick-next:before) {
-          color: #A5886E;
-          font-size: 24px;
-        }
-        :global(.slick-prev) {
-          left: -40px;
-        }
-        :global(.slick-next) {
-          right: -40px;
-        }
-      `}</style>
+     
+      
     </div>
   );
 };
