@@ -2,6 +2,12 @@
 
 import React from 'react';
 
+import logo1 from "../../assets/structure/logo1.png"
+import logo2 from "../../assets/structure/logo-sicily-divide-COLORE.png"
+import logo3 from "../../assets/structure/Airbnb_Logo_Belo_col.png"
+import logo4 from "../../assets/structure/dorelan-logo-vector-01.png"
+import logo5 from "../../assets/structure/bookinglogo.png"
+
 const RoomExperienceSection = () => {
     return (
         <section className="relative bg-gradient-to-b from-[#F9F7F4] to-[#e8e1d5] py-24 px-6 md:px-12 lg:px-24 text-[#253745] overflow-hidden">
@@ -32,13 +38,13 @@ const RoomExperienceSection = () => {
                 {/* Features grid - enhanced */}
                 <div className="grid md:grid-cols-3 gap-8 md:gap-12">
                     {/* Feature 1 */}
-                    <div className="group flex flex-col items-center text-center p-8 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-[#e0d8c8]">
+                    <div className="group flex flex-col items-center justify-center text-center p-8 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-[#e0d8c8]">
                         <h3 className="text-xl font-semibold text-[#597429] mb-4">We Are Classified</h3>
-                        <div className="mb-5 w-24 h-24 rounded-full overflow-hidden shadow-md group-hover:shadow-lg transition-all duration-500">
+                        <div className="  overflow-hidden  group-hover: transition-all duration-500">
                             <img
-                                src="https://images.pexels.com/photos/1005417/pexels-photo-1005417.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                src={logo1}
                                 alt="Sicily Region"
-                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                className="h-25 object-cover transition-transform duration-700 group-hover:scale-110"
                             />
                         </div>
                         <p className="text-lg">
@@ -47,18 +53,23 @@ const RoomExperienceSection = () => {
                     </div>
 
                     {/* Feature 2 */}
-                    <div className="group flex flex-col items-center text-center p-8 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-[#e0d8c8]">
+                    <div className="group flex flex-col items-center justify-center text-center p-8 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-[#e0d8c8]">
                         <h3 className="text-xl font-semibold text-[#597429] mb-4">We Are Also On</h3>
-                        <div className="flex justify-center gap-6 items-center mb-5 px-4">
+                        <div className="mb-5   transition-all duration-500 flex flex-col gap-4 items-center justify-center">
                             <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Booking.com_logo.svg/2560px-Booking.com_logo.svg.png"
-                                alt="Booking.com"
-                                className="w-28 h-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity duration-300"
+                                src={logo5}
+                                alt=""
+                                className="h-14 object-cover transition-transform duration-700 group-hover:scale-110"
                             />
                             <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Bélo.svg"
-                                alt="Airbnb"
-                                className="w-12 h-12 object-contain opacity-90 group-hover:opacity-100 transition-opacity duration-300"
+                                src={logo3}
+                                alt=""
+                                className="h-14 object-cover transition-transform duration-700 group-hover:scale-110"
+                            />
+                            <img
+                                src={logo2}
+                                alt=""
+                                className="h-14 object-cover transition-transform duration-700 group-hover:scale-110"
                             />
                         </div>
                         <p className="text-lg">
@@ -67,17 +78,18 @@ const RoomExperienceSection = () => {
                     </div>
 
                     {/* Feature 3 */}
-                    <div className="group flex flex-col items-center text-center p-8 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-[#e0d8c8]">
-                        <h3 className="text-xl font-semibold text-[#597429] mb-4">Our Mattresses Are</h3>
-                        <div className="mb-5 w-24 h-24 rounded-full overflow-hidden shadow-md group-hover:shadow-lg transition-all duration-500">
+                     <div className="group flex flex-col items-center justify-center text-center p-8 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-[#e0d8c8]">
+                        <h3 className="text-xl font-semibold text-[#597429] mb-4">We Are Also On</h3>
+                        <div className="mb-5   transition-all duration-500 flex flex-col gap-4 items-center justify-center">
+                         
                             <img
-                                src="https://images.pexels.com/photos/90317/pexels-photo-90317.jpeg?auto=compress&cs=tinysrgb&w=600"
-                                alt="Eco Mattress"
-                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                src={logo4}
+                                alt=""
+                                className="h-14 object-cover transition-transform duration-700 group-hover:scale-110"
                             />
                         </div>
                         <p className="text-lg">
-                            Eco-friendly & designed for <span className="text-[#A5886E] font-semibold">restful sleep</span>
+                            Book through <span className="text-[#A5886E] font-semibold">Booking.com</span> & <span className="text-[#A5886E] font-semibold">Airbnb</span>
                         </p>
                     </div>
                 </div>

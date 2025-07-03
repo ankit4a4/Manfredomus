@@ -11,6 +11,7 @@ import Structure from './pages/Structure';
 import PlacesToVisit from './pages/PlacesToVisit';
 import Events from './pages/Events';
 import HowToGet from './pages/HowToGet';
+import FeedBack from './pages/FeedBack';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/surroundings" element={<PlacesToVisit />} />
           <Route path="/events" element={<Events />} />
           <Route path="/howtoget" element={<HowToGet />} />
+          <Route path="/feedback" element={<FeedBack />} />
         </Routes>
         <Footer />
       </BrowserRouter>

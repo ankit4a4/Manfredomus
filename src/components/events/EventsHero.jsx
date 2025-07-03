@@ -1,11 +1,11 @@
 import React from 'react'
-
+import img from "../../assets/Event/colazione (26).jpg"
 const EventsHero = () => {
     return (
         <>
             <section
                 className="relative h-[80vh] flex items-center justify-center bg-cover bg-center"
-                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80')" }}
+                style={{ backgroundImage: `url('${img}')` }}
                 data-aos="fade-up"
             >
                 <div className="absolute inset-0 bg-[#00000093] "></div>
