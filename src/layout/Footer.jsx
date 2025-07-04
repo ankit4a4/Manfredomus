@@ -50,7 +50,7 @@ const Footer = () => {
                     <h4 className="text-lg font-semibold text-[#A5886E] mb-3">Contact</h4>
                     <ul className="space-y-3 text-sm text-gray-300">
                         <li className="flex items-center gap-2"><Mail size={16} /> info@manfredomus.it</li>
-                        <li className="flex items-center gap-2"><Phone size={16} /> +39 123 456 7890</li>
+                        <li className="flex items-center gap-2"><Phone size={16} /> +39 3661270826</li>
                         <li className="flex items-center gap-2"><MapPin size={16} /> Sicily, Italy</li>
                     </ul>
                 </div>

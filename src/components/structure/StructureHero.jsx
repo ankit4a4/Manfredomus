@@ -5,7 +5,7 @@ const StructureHero = () => {
     return (
         <>
             <section
-                className="relative h-[80vh] flex items-center justify-center bg-cover bg-center"
+                className="relative md:h-[80vh] h-[40vh] flex items-center justify-center bg-cover bg-center"
                 style={{ backgroundImage: `url('${img}')` }}
                 data-aos="fade-up"
             >
