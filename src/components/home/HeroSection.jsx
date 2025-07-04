@@ -17,7 +17,7 @@ const HeroSection = () => {
     }, [images.length]);
 
     return (
-        <section className="md:h-screen h-[65vh] relative overflow-hidden">
+        <section className="md:h-screen h-[40vh] relative overflow-hidden">
             {/* Background images with fade transition */}
             <div className="absolute inset-0 transition-opacity duration-1000 ease-in-out">
                 {images.map((image, index) => (

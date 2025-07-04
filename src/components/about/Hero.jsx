@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <>
             <section
-                className="h-[80vh] bg-cover bg-center relative"
+                className="md:h-[80vh] h-[40vh] bg-cover bg-center relative"
                 style={{ backgroundImage: `url(${bgImage})` }}
             >
                 <div className="absolute inset-0 bg-[#0000005e]" />
